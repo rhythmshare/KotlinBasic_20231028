@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             Log.e("메인화면", "e로 로그 찍어 보기")
             Log.wtf("메인화면", "wtf로 로그 찍어 보기")
 
+
         }
         binding.btnToast.setOnClickListener {
             // 토스트 버튼이 클릭되면 => 토스트 띄우기
