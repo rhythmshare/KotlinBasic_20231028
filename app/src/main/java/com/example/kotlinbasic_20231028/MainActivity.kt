@@ -42,6 +42,13 @@ class MainActivity : AppCompatActivity() {
             myName = "sharerhythm"
 
             Toast.makeText(this, myName, Toast.LENGTH_SHORT).show()
+            
+            // 너구리 이름 : 변경 불가
+            val raccoonName : String
+            raccoonName = "kun"
+            
+            // 너구리 이름 변경 시도
+            //raccoonName = "coon"   => syntax error 상수로 선언한 공간의 값을 변경 시도함   
 
         }
     }
