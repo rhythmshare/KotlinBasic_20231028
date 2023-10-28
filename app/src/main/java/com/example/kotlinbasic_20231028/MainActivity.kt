@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
 
             // 로그 찍어보기
             Log.d("메인화면", "로그 버튼 클릭됨")
+            Log.e("메인화면", "e로 로그 찍어 보기")
+            Log.wtf("메인화면", "wtf로 로그 찍어 보기")
 
         }
         binding.btnToast.setOnClickListener {
