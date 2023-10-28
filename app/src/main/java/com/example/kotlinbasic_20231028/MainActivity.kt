@@ -92,5 +92,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        // 이름 입력칸에 적힌 이름을 그대로 토스트로 출력(연습)
+        binding.btnNameToast.setOnClickListener {
+            val inputName = binding.edtName.text.toString()
+            //Toast.makeText(this, inputName, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "${inputName}님 환영합니다.", Toast.LENGTH_SHORT).show()
+        }
     }
 }
